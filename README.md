@@ -17,8 +17,8 @@ Here are some rabbitmq examples.
 The code is written with python and Rabbitmq on CloudMQP (https://www.cloudamqp.com/).
 
 ## Usage
-You can load a file into the interactive shell.<br />
-python -i file.py<br />
+I found a good tutorial on the basics of RabbitMQ here.<br />
+https://www.cloudamqp.com/docs/python.html<br />
 
 ### Generator
 
