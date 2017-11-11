@@ -2,6 +2,7 @@
 
 import pika, os
 
+# Environment variable CLOUDAMQP_URL needs to be set
 url = os.environ.get('CLOUDAMQP_URL')
 params = pika.URLParameters(url)
 connection = pika.BlockingConnection(params)
